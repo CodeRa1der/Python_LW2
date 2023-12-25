@@ -9,5 +9,11 @@ if symb == "+":
 elif symb == "-":
     result = a - b
     print("Результат:", result)
+elif symb == "*":
+    result = a * b
+    print("Результат:", result)
+elif symb == "/":
+    result = a / b
+    print("Результат:", result)
 else:
     print("Введён некорректный знак")
